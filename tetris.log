@@ -1,0 +1,30 @@
+0	1	mikroCARM.exe -MSF -DBG -pSTM32F107VC -BIN -LHF -DL -SSA -O11111114 -fo72 -N"D:\MikroC\Final Project\tetris.mcpar" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M3\" -SP"D:\MikroC\Final Project\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M3\" "tetris_main.c" "tetris_events_code.c" "tetris_driver.c" "tetris_resources.c" "Interrupt.c" "Configurations.c" "tetris_shapes.c" "tetris_movements.c" "__Lib_Math.emcl" "__Lib_MathDouble.emcl" "__Lib_Delays.emcl" "__Lib_System_105_107.emcl" "__Lib_GPIO_32F10x_Defs.emcl" "__Lib_GPIO_32F10x.emcl" "__Lib_CStdlib.emcl" "__Lib_TFT.emcl" "__Lib_TFT_Defs.emcl" "__Lib_TouchPanel_TFT.emcl"	 
+diagnostics: 0	122	Compilation Started	tetris_objects.h
+diagnostics: 51	123	Compiled Successfully	tetris_main.c
+diagnostics: 0	122	Compilation Started	tetris_objects.h
+diagnostics: 83	123	Compiled Successfully	tetris_events_code.c
+diagnostics: 0	122	Compilation Started	tetris_objects.h
+diagnostics: 108	123	Compiled Successfully	tetris_driver.c
+diagnostics: 0	122	Compilation Started	tetris_resources.c
+diagnostics: 1094	123	Compiled Successfully	tetris_resources.c
+diagnostics: 0	122	Compilation Started	tetris_objects.h
+hint: 0	1004	interrupt handler (TIMER3_ISR at 0x002D)	Interrupt.c
+hint: 0	1004	interrupt handler (EXTIPD4 at 0x001A)	Interrupt.c
+hint: 0	1004	interrupt handler (EXTIPB5PA6 at 0x0027)	Interrupt.c
+hint: 0	1004	interrupt handler (EXTIPD2 at 0x0018)	Interrupt.c
+hint: 0	1004	interrupt handler (EXTIPC13 at 0x0038)	Interrupt.c
+diagnostics: 104	123	Compiled Successfully	Interrupt.c
+diagnostics: 0	122	Compilation Started	Configurations.c
+diagnostics: 82	123	Compiled Successfully	Configurations.c
+diagnostics: 0	122	Compilation Started	tetris_objects.h
+diagnostics: 48	123	Compiled Successfully	tetris_objects.h
+diagnostics: 0	122	Compilation Started	tetris_objects.h
+diagnostics: 104	123	Compiled Successfully	tetris_movements.c
+diagnostics: 0	127	All files Compiled in 375 ms	 
+hint: 0	1144	Used RX: 16 (100%)   Free RX: 0 (0%)	Used RX: 16 (100%)   Free RX: 0 (0%)
+hint: 0	1144	Static RAM (bytes): 202   Dynamic RAM (bytes): 65329	Static RAM (bytes): 202   Dynamic RAM (bytes): 65329
+hint: 0	1144	Used ROM (bytes): 26661 (10%)  Free ROM (bytes): 235483 (90%)	Used ROM (bytes): 26661 (10%)  Free ROM (bytes): 235483 (90%)
+diagnostics: 0	125	Project Linked Successfully	tetris.mcpar
+diagnostics: 0	128	Linked in 172 ms	 
+diagnostics: 0	129	Project 'tetris.mcpar' completed: 641 ms	 
+diagnostics: 0	103	Finished successfully: 19 Dec 2022, 17:17:22	tetris.mcpar

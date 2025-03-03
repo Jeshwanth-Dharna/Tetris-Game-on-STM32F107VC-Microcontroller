@@ -1,0 +1,12 @@
+0	1	mikroCARM.exe -MSF -DBG -pSTM32F107VC -BIN -LHF -DL -SSA -O11111114 -fo72 -N"D:\MikroC\Final Project\Game Variable Speed\Game_speed.mcpar" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M3\" -SP"D:\MikroC\Final Project\Game Variable Speed\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M3\" "Game_speed.c" "__Lib_Math.emcl" "__Lib_MathDouble.emcl" "__Lib_Delays.emcl" "__Lib_System_105_107.emcl" "__Lib_GPIO_32F10x_Defs.emcl" "__Lib_GPIO_32F10x.emcl"	 
+diagnostics: 0	122	Compilation Started	Game_speed.c
+hint: 0	1004	interrupt handler (TIMER3_ISR at 0x002D)	Game_speed.c
+diagnostics: 92	123	Compiled Successfully	Game_speed.c
+diagnostics: 0	127	All files Compiled in 31 ms	 
+hint: 0	1144	Used RX: 16 (100%)   Free RX: 0 (0%)	Used RX: 16 (100%)   Free RX: 0 (0%)
+hint: 0	1144	Static RAM (bytes): 8   Dynamic RAM (bytes): 65525	Static RAM (bytes): 8   Dynamic RAM (bytes): 65525
+hint: 0	1144	Used ROM (bytes): 2188 (1%)  Free ROM (bytes): 259956 (99%)	Used ROM (bytes): 2188 (1%)  Free ROM (bytes): 259956 (99%)
+diagnostics: 0	125	Project Linked Successfully	Game_speed.mcpar
+diagnostics: 0	128	Linked in 125 ms	 
+diagnostics: 0	129	Project 'Game_speed.mcpar' completed: 328 ms	 
+diagnostics: 0	103	Finished successfully: 19 Dec 2022, 17:15:39	Game_speed.mcpar
